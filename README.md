@@ -17,14 +17,13 @@ To write a program to perform linear search and binary search using python progr
 5.	Else, compare x with the middle element of the elements on the left side of mid. This is done by setting high to high = mid - 1.
 6.	Repeat steps 2 to 5 until low meets high
 ## Program:
-i)	#Use a linear search method to match the item in a list.
+(i)#Use a linear search method to match the item in a list.
 
 
 ```
-Program for linear search method to match the item in a list
-Developed by:YUVA SREE M
-RegisterNumber:23013768 
-'''
+#Program for linear search method to match the item in a list
+#Developed by:YUVA SREE M
+#RegisterNumber:23013768 
 def linearSearch(array,n,k):
     for i in range (0,n):
         if (array[i]==k):
@@ -45,10 +44,13 @@ else:
 ```
 
 
-ii)	# Find the element in a list using Binary Search(Iterative Method).
+(ii)# Find the element in a list using Binary Search(Iterative Method).
 
 
 ```
+#Program for linear search method to match the item in a list using Binary Search(Iterative Method).
+#Developed by:YUVA SREE M
+#RegisterNumber:23013768
 def binarySearchIter(array, k, low, high):
     while low<=high:
         mid=low+(high-low)//2
@@ -73,10 +75,13 @@ else:
 ```
 
 
-iii)	# Find the element in a list using Binary Search (recursive Method).
+(iii)# Find the element in a list using Binary Search (recursive Method).
 
 
 ```
+#Program for linear search method to match the item in a list using Binary Search(recursive Method).
+#Developed by:YUVA SREE M
+#RegisterNumber:23013768
 def BinarySearch(arr, k, low, high):
     if high>=low:
         mid=low+(high-low)//2
@@ -103,11 +108,13 @@ else:
 
 
 ## Sample Input and Output:
+![Alt text](<linear search.png>)
+![Alt text](Iterative.png)
+![Alt text](<recursive method.png>)
 
 
-![output](<linear ss.png>)
-![output](<binary iterative.png>)
-![output](recursive.png)
+
+
 
 
 
